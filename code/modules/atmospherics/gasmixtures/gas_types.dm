@@ -305,6 +305,19 @@
 	desc = "We still don't know what it does, but it sells for a lot."
 	primary_color = COLOR_MAROON
 
+/datum/gas/strangerium
+	id = GAS_STRANGERIUM
+	specific_heat = 1
+	name = "Kurchatov-Quantium"
+	dangerous = TRUE
+	gas_overlay = "antinoblium"
+	moles_visible = MOLES_GAS_VISIBLE
+	fusion_power = 20
+	rarity = 1
+	base_value = 10
+	desc = "oh
+	primary_color = COLOR_MAROON
+
 /obj/effect/overlay/gas
 	icon = 'icons/effects/atmospherics.dmi'
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
