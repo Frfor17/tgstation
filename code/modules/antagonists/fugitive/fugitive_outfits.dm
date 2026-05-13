@@ -86,3 +86,12 @@
 
 	var/obj/item/implant/camouflage/invisibility_implant = new(equipee)
 	invisibility_implant.implant(equipee)
+
+/datum/outfit/sellers
+	name = "Suspiсious seller"
+	uniform = /obj/item/clothing/under/color/white
+	suit = /obj/item/clothing/suit/chaplainsuit/holidaypriest
+	ears = /obj/item/radio/headset
+	head = /obj/item/clothing/head/waldo
+
+/datum/outfit/waldo/post_equip(mob/living/carbon/human/equipped_on, visuals_only=FALSE)
