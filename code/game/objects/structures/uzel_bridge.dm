@@ -29,7 +29,7 @@
 		current.place_on_top(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
 
 		var/turf/left_wall = get_step(current, turn(direction, 90))
-		left_wall.place_on_top(/turf/closed/wall/mineral/titanium)
+		left_wall.place_on_top(/turf/closed/wall/uzel_bridge)
 
 		var/turf/right_wall = get_step(current, turn(direction, -90))
 		right_wall.place_on_top(/turf/closed/wall/mineral/titanium)

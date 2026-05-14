@@ -137,3 +137,9 @@
 	turf_flags = NO_RUST
 	explosive_resistance = 50
 	baseturfs = /turf/open/misc/asteroid/basalt/airless
+
+/turf/closed/wall/uzel_bridge
+	name = "UZEL Bridge wall"
+	desc = "allows to connect"
+	icon = 'icons/turf/uzel_wall.dmi'
+	icon_state = "left_wall"
