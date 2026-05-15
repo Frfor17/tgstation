@@ -21,6 +21,14 @@
 	name = "CONTAIMENT BREACH BUTTON"
 	desc = "A button for start steril. procedure"
 
+/obj/machinery/button/viro_steril/attempt_press(mob/user)
+	. = ..()
+	if(!.)
+		return FALSE
+
+	// sterilisation procedure will be activated
+	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_BUTTON_PRESSED, src)
+
 // dont be serious, its fast implementation
 // when it will be not draft, it will be replaced
 /obj/machinery/button/viro_steril/attempt_press(mob/user)
@@ -73,10 +81,14 @@
 
 /obj/structure/viro_steri_smoke/Initialize(mapload)
 	. = ..()
-	RegisterSignal(GLOB.viro_steril, COMSIG_VIRO_CONTAIMENT_BUTTON_PRESSED, PROC_REF(on_contaiment_button_pressed))
+	RegisterSignal(SSdcs, COMSIG_GLOB_BUTTON_PRESSED, PROC_REF(on_contaiment_button_pressed))
 
-/obj/structure/viro_steri_smoke/proc/on_contaiment_button_pressed()
+/obj/structure/viro_steri_smoke/proc/on_contaiment_button_pressed(datum/source)
 	SIGNAL_HANDLER
-	release_smoke()
+	if(istype(button, /obj/machinery/button/viro_steril))
+		release_smoke()
 
 /obj/structure/viro_steri_smoke/proc/release_smoke()
+
+	var/obj/item/grenade/smokebomb/viro_steri_smoke/grenade = new(src.loc)
+	grenade.detonate()
