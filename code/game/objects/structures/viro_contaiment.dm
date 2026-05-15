@@ -59,6 +59,24 @@
 	name = "steralisation device"
 	desc = "Clean viro from"
 	det_time = 0
-	icon_state = null
-	alpha = 0
-	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "ster_smoke_device"
+	// alpha = 0
+	// mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+// actual ster-smoke device structure
+/obj/structure/viro_steri_smoke
+	name = "steralisation device"
+	desc = "Clean viro from"
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "ster_smoke_device"
+
+/obj/structure/viro_steri_smoke/Initialize(mapload)
+	. = ..()
+	RegisterSignal(GLOB.viro_steril, COMSIG_VIRO_CONTAIMENT_BUTTON_PRESSED, PROC_REF(on_contaiment_button_pressed))
+
+/obj/structure/viro_steri_smoke/proc/on_contaiment_button_pressed()
+	SIGNAL_HANDLER
+	release_smoke()
+
+/obj/structure/viro_steri_smoke/proc/release_smoke()
