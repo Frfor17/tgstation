@@ -104,7 +104,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 			balloon_alert(user, "can't hold that!")
 			return ..()
 
-		if(has_filter)
+		if(has_filter && type != (/obj/item/clothing/mask/gas/explorer && /obj/item/clothing/mask/gas/explorer/folded))
 			balloon_alert(user, "filters in the mask!")
 			return ..()
 
