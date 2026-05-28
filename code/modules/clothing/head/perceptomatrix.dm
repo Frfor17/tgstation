@@ -233,14 +233,20 @@
 	name = "Lenses override"
 	desc = "Overrid percepto-lenses, provide some damage to them, but allows to capture the smallest physic-knowns particuls, gratially increasing visual capabilities of the wearer."
 
+/datum/action/cooldown/spell/pointed/percept_see_through/cast()
+
 /datum/action/cooldown/spell/pointed/percept_cloacking
 	name = "Optical reconfiguration"
 	desc = "Redirect photonic angles and properties of the object to make it look like the desired object, the differences are obvious when examined, but it is difficult to notice the difference at a glance."
+
+/datum/action/cooldown/spell/pointed/percept_cloacking/cast()
 
 /datum/action/cooldown/spell/pointed/percept_focusing
 
 	name = "Precision translucence"
 	desc = "While turn on the rentgen-sensetive lences and health-analyser, direct the bunches of rentgen rays into the target, dealing very small dose of radiation, but getting exactly info about his conditions."
+
+/datum/action/cooldown/spell/pointed/percept_focusing/cast()
 
 
 #undef PERCEPTOMATRIX_INACTIVE_FLAGS
