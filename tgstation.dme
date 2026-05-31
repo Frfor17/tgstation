@@ -5300,6 +5300,7 @@
 #include "code\modules\mob\living\basic\heretic\_heretic_summon.dm"
 #include "code\modules\mob\living\basic\heretic\ash_spirit.dm"
 #include "code\modules\mob\living\basic\heretic\fire_shark.dm"
+#include "code\modules\mob\living\basic\heretic\flesh_arkmozg.dm"
 #include "code\modules\mob\living\basic\heretic\flesh_stalker.dm"
 #include "code\modules\mob\living\basic\heretic\flesh_worm.dm"
 #include "code\modules\mob\living\basic\heretic\maid_in_the_mirror.dm"
