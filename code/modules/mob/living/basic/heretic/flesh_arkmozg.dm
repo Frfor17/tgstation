@@ -52,7 +52,7 @@
  * Callback for the mind_linker component.
  * Stuns people who are ejected from the network.
  */
-/mob/living/basic/heretic_summon/raw_prophet/proc/after_unlink(mob/living/unlinked_mob)
+/mob/living/basic/heretic_summon/arkmozg/proc/after_unlink(mob/living/unlinked_mob)
 	if(QDELETED(unlinked_mob) || unlinked_mob.stat == DEAD)
 		return
 
