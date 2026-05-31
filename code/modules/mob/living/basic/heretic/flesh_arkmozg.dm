@@ -7,7 +7,7 @@
 	name = "\improper Flesh Arkmozg"
 	real_name = "Flesh Arkmozg"
 	desc = "An unnatural intertwining of the tissues of several organs, as if the brains of different people had grown together, with pulsating vessels bearing incomprehensible, heretical symbols. Creepy..."
-	icon_state = 'final_mob_ver4'
+	icon_state = "final_mob_ver4"
 
 	// Can fly, so table is not a problem, also can fly through people
 	// But its taking away a ability to be beaten by baton at face hehe
