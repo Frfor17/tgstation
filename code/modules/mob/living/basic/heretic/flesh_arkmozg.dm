@@ -11,8 +11,7 @@
 
 	// Can fly, so table is not a problem, also can fly through people
 	// But its taking away a ability to be beaten by baton at face hehe
-	density = FALSE
-	pass_flags = PASSTABLE
+	pass_flags = PASSTABLE | PASSMOB
 
 	mob_biotypes = MOB_ORGANIC
 
