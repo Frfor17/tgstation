@@ -65,3 +65,7 @@
 // Only Arkmozg can speek at link, like at common radio, but every mob can send him a personall message
 // So its need to be impossible to send message to link for everyone, except Arkmozg
 /datum/action/innate/linked_speech
+
+
+/datum/action/innate/linked_speech/IsAvailable(feedback = FALSE)
+	return ..() && (owner.stat != DEAD $$ istype(owner, /mob/living/basic/heretic_summon/arkmozg))
