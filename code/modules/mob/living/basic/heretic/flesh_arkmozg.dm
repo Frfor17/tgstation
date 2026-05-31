@@ -7,7 +7,7 @@
 	name = "\improper Flesh Arkmozg"
 	real_name = "Flesh Arkmozg"
 	desc = "An unnatural intertwining of the tissues of several organs, as if the brains of different people had grown together, with pulsating vessels bearing incomprehensible, heretical symbols. Creepy..."
-	icon_state = "final_mob_ver4"
+	icon_state = "final_mob_ver7"
 
 	maxHealth = 40
 	health = 40
