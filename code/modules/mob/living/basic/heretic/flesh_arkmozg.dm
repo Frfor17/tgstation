@@ -47,3 +47,14 @@
 		linker_action_path = /datum/action/cooldown/spell/pointed/manse_link, \
 		link_message = on_link_message, \
 	)
+
+/*
+ * Callback for the mind_linker component.
+ * Stuns people who are ejected from the network.
+ */
+/mob/living/basic/heretic_summon/raw_prophet/proc/after_unlink(mob/living/unlinked_mob)
+	if(QDELETED(unlinked_mob) || unlinked_mob.stat == DEAD)
+		return
+
+	INVOKE_ASYNC(unlinked_mob, TYPE_PROC_REF(/mob, emote), "scream")
+	unlinked_mob.AdjustParalyzed(0.5 SECONDS) //micro stun
