@@ -536,11 +536,13 @@
 	desc = "Is it Kot, or cake, or tort, or kotort? Anyways, looks like a famous \"cake\" among the Gamers... How can you eat me? :3"
 	icon_state = "kotort_cake"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 20,
-		/datum/reagent/consumable/nutriment/vitamin = 5,
-		/datum/reagent/toxin/acid = 15,
-		/datum/reagent/fuel/oil = 15,
+		/datum/reagent/consumable/nutriment = 60,
+		/datum/reagent/consumable/nutriment/vitamin = 20,
 	)
+
+	tastes = list("cake" = 5, "kot" = 5, "sweetness" = 1, "tort" = 1)
+	foodtypes = GRAIN | DAIRY | EGG | SUGAR
+	crafting_complexity = FOOD_COMPLEXITY_4
 
 /obj/item/food/cake/vanilla_cake
 	name = "vanilla cake"
