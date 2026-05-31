@@ -20,7 +20,9 @@
 
 
 	/// List of innate abilities we have to add.
-	var/static/list/innate_abilities = list()
+	var/static/list/innate_abilities = list(
+		/datum/action/cooldown/spell/list_target/telepathy/eldritch = null,
+	)
 
 /mob/living/basic/heretic_summon/arkmozg/Initialize(mapload)
 	. = ..()
