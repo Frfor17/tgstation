@@ -3538,6 +3538,7 @@
 #include "code\modules\antagonists\heretic\magic\lunatic_track.dm"
 #include "code\modules\antagonists\heretic\magic\madness_touch.dm"
 #include "code\modules\antagonists\heretic\magic\manse_link.dm"
+#include "code\modules\antagonists\heretic\magic\manse_link_lesser.dm"
 #include "code\modules\antagonists\heretic\magic\mansus_grasp.dm"
 #include "code\modules\antagonists\heretic\magic\mind_gate.dm"
 #include "code\modules\antagonists\heretic\magic\mirror_walk.dm"

@@ -64,8 +64,12 @@
 // All linked mobs
 // Only Arkmozg can speek at link, like at common radio, but every mob can send him a personall message
 // So its need to be impossible to send message to link for everyone, except Arkmozg
+// Arkmozg message is sended to everyone, who is Mansus entity
 /datum/action/innate/linked_speech
+	name = "Arkmozg Speech"
+	desc = "Send a psychic message to every Mansus entity, alarming them, giving them usefull info or direct them at will of your Summoner."
 
 
+// So, it will be only available for Arkmozg?
 /datum/action/innate/linked_speech/IsAvailable(feedback = FALSE)
 	return ..() && (owner.stat != DEAD $$ istype(owner, /mob/living/basic/heretic_summon/arkmozg))
