@@ -39,12 +39,11 @@
 	var/on_unlink_message = "Your mind shatters as [src]'s Mansus Link leaves your mind."
 	AddComponent( \
 		/datum/component/mind_linker/active_linking, \
-		network_name = "Mansus Link", \
-		chat_color = "#568b00", \
+		network_name = "Lesser Mansus Link", \
+		chat_color = "#2d4a00", \
 		post_unlink_callback = CALLBACK(src, PROC_REF(after_unlink)), \
 		speech_action_background_icon_state = "bg_heretic", \
 		speech_action_overlay_state = "bg_heretic_border", \
 		linker_action_path = /datum/action/cooldown/spell/pointed/manse_link, \
 		link_message = on_link_message, \
-		unlink_message = on_unlink_message, \
 	)
