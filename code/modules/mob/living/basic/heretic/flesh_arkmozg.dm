@@ -7,7 +7,7 @@
 	name = "\improper Flesh Arkmozg"
 	real_name = "Flesh Arkmozg"
 	desc = "An unnatural intertwining of the tissues of several organs, as if the brains of different people had grown together, with pulsating vessels bearing incomprehensible, heretical symbols. Creepy..."
-	icon_state = "final_mob_ver7"
+	icon_state = "final_mob_ver10"
 
 	maxHealth = 40
 	health = 40
@@ -27,3 +27,8 @@
 /mob/living/basic/heretic_summon/arkmozg/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/swarming, 20, 20)
+
+
+	// Organs spawn after death
+	var/static/list/body_parts = list(/obj/effect/gibspawner/human, /obj/item/organ/brain, /obj/item/organ/eyes)
+	AddElement(/datum/element/death_drops, body_parts)
