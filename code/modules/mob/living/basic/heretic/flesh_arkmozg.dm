@@ -9,4 +9,13 @@
 	desc = "An unnatural intertwining of the tissues of several organs, as if the brains of different people had grown together, with pulsating vessels bearing incomprehensible, heretical symbols. Creepy..."
 	icon_state = 'final_mob_ver4'
 
-/mob/living/basic/heretic_summon/stalker/Initialize(mapload)
+	// Can fly, so table is not a problem, also can fly through people
+	// But its taking away a ability to be beaten by baton at face hehe
+	density = FALSE
+	pass_flags = PASSTABLE
+
+	mob_biotypes = MOB_ORGANIC
+
+/mob/living/basic/heretic_summon/arkmozg/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/swarming, 20, 20)
