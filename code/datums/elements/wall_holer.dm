@@ -14,7 +14,7 @@
 	/// Whether we make a hole at reinforced walls
 	var/allow_reinforced
 	/// How long it takes for us to make a hole (its a 3 step process so this will be divided by three)
-	var/hole_time
+	var/hole_making_time
 	/// How much longer it takes to make a hole at reinforced walls
 	var/reinforced_multiplier
 	/// What interaction key do we use for our interaction
