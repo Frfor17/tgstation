@@ -68,3 +68,7 @@
 		return
 
 	attached_wall.dismantle_wall(devastated = TRUE)
+
+#undef HOLED_WALL_HOLE
+#undef HOLED_WALL_DAMAGED
+#undef HOLED_WALL_INITIAL
