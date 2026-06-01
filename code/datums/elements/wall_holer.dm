@@ -1,5 +1,13 @@
 // element, which can be given to a mob, and then mob can makes a holes at the walls
 
+
+/// Returned if we can rip up this target
+#define WALL_TEAR_ALLOWED TRUE
+/// Returned if we can't rip up this target
+#define WALL_TEAR_INVALID FALSE
+/// Returned if we can't rip up the target but still don't want to attack it
+#define WALL_TEAR_FAIL_CANCEL_CHAIN -1
+
 /datum/element/wall_holer
 
 /datum/element/wall_holer/Attach(datum/target, allow_reinforced = TRUE, tear_time = 2 SECONDS, reinforced_multiplier = 2, do_after_key = null)
@@ -60,3 +68,7 @@
 		target.balloon_alert(tearer, "it's too strong!")
 		return WALL_TEAR_FAIL_CANCEL_CHAIN
 	return WALL_TEAR_ALLOWED
+
+#undef WALL_TEAR_ALLOWED
+#undef WALL_TEAR_INVALID
+#undef WALL_TEAR_FAIL_CANCEL_CHAIN
