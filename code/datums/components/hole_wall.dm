@@ -17,21 +17,21 @@
 
 	var/atom/dir_of_tearer = 1
 
-/datum/component/torn_wall/torn_wall_hole/Initialize(current_stage, dir_of_tearer = 1)
+/datum/component/hole_wall/torn_wall_hole/Initialize(current_stage, dir_of_tearer = 1)
 	. = ..()
 	if (!isclosedturf(parent) || isindestructiblewall(parent))
 		return COMPONENT_INCOMPATIBLE
 	src.current_stage = current_stage || src.current_stage
 	src.dir_for_hole = dir_of_tearer
 
-/datum/component/torn_wall/RegisterWithParent()
+/datum/component/hole_wall/RegisterWithParent()
 	RegisterSignal(parent, COMSIG_ATOM_EXAMINE, PROC_REF(on_examined))
 	RegisterSignal(parent, COMSIG_ATOM_TOOL_ACT(TOOL_WELDER), PROC_REF(on_welded))
 	RegisterSignal(parent, COMSIG_ATOM_UPDATE_OVERLAYS, PROC_REF(on_update_overlays))
 	RegisterSignal(parent, COMSIG_TURF_CHANGE, PROC_REF(on_turf_changed))
 	apply_visuals()
 
-/datum/component/torn_wall/UnregisterFromParent()
+/datum/component/hole_wall/UnregisterFromParent()
 	var/atom/atom_parent = parent
 	UnregisterSignal(parent, list(
 		COMSIG_ATOM_EXAMINE,
@@ -40,3 +40,13 @@
 		COMSIG_TURF_CHANGE,
 	))
 	atom_parent.update_appearance(UPDATE_ICON)
+
+/datum/component/hole_wall/InheritComponent(datum/component/C, i_am_original)
+	increase_stage()
+
+/// Play a fun animation and make our wall look damaged, same as torn wall component
+/datum/component/torn_wall/proc/apply_visuals()
+	var/atom/atom_parent = parent
+	playsound(atom_parent, 'sound/effects/bang.ogg', 50, vary = TRUE)
+	atom_parent.update_appearance(UPDATE_ICON)
+	atom_parent.Shake(shake_interval = 0.1 SECONDS, duration = 0.5 SECONDS)
