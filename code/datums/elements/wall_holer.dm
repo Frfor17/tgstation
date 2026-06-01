@@ -15,10 +15,12 @@
 	var/allow_reinforced
 	/// How long it takes for us to make a hole (its a 3 step process so this will be divided by three)
 	var/hole_time
-	/// How much longer it takes to break reinforced walls
+	/// How much longer it takes to make a hole at reinforced walls
 	var/reinforced_multiplier
 	/// What interaction key do we use for our interaction
 	var/do_after_key
+	/// Which type of hole will be made, bloody one, normal gery one, etc
+	var/hole_type
 
 /datum/element/wall_holer/Attach(datum/target, allow_reinforced = TRUE, tear_time = 2 SECONDS, reinforced_multiplier = 2, do_after_key = null)
 	. = ..()
