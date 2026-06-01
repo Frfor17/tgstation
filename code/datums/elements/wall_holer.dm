@@ -2,11 +2,11 @@
 
 
 /// Returned if we can rip up this target
-#define WALL_TEAR_ALLOWED TRUE
+#define WALL_HOLE_ALLOWED TRUE
 /// Returned if we can't rip up this target
-#define WALL_TEAR_INVALID FALSE
+#define WALL_HOLE_INVALID FALSE
 /// Returned if we can't rip up the target but still don't want to attack it
-#define WALL_TEAR_FAIL_CANCEL_CHAIN -1
+#define WALL_HOLE_FAIL_CANCEL_CHAIN -1
 
 /datum/element/wall_holer
 
@@ -69,6 +69,6 @@
 		return WALL_TEAR_FAIL_CANCEL_CHAIN
 	return WALL_TEAR_ALLOWED
 
-#undef WALL_TEAR_ALLOWED
-#undef WALL_TEAR_INVALID
-#undef WALL_TEAR_FAIL_CANCEL_CHAIN
+#undef WALL_HOLE_ALLOWED
+#undef WALL_HOLE_INVALID
+#undef WALL_HOLE_FAIL_CANCEL_CHAIN
