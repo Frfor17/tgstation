@@ -9,6 +9,16 @@
 #define WALL_HOLE_FAIL_CANCEL_CHAIN -1
 
 /datum/element/wall_holer
+	element_flags = ELEMENT_BESPOKE
+	argument_hash_start_idx = 2
+	/// Whether we can break reinforced walls
+	var/allow_reinforced
+	/// How long it takes for us to destroy a wall completely (its a 3 step process so this will be divided by three)
+	var/tear_time
+	/// How much longer it takes to break reinforced walls
+	var/reinforced_multiplier
+	/// What interaction key do we use for our interaction
+	var/do_after_key
 
 /datum/element/wall_holer/Attach(datum/target, allow_reinforced = TRUE, tear_time = 2 SECONDS, reinforced_multiplier = 2, do_after_key = null)
 	. = ..()
