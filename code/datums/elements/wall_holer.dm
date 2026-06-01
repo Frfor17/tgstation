@@ -1,11 +1,11 @@
 // element, which can be given to a mob, and then mob can makes a holes at the walls
 
 
-/// Returned if we can rip up this target
+/// Returned if we can make a hole at this target
 #define WALL_HOLE_ALLOWED TRUE
-/// Returned if we can't rip up this target
+/// Returned if we can't make a hole at this target
 #define WALL_HOLE_INVALID FALSE
-/// Returned if we can't rip up the target but still don't want to attack it
+/// Returned if we can't make a hole at this target but still don't want to attack it
 #define WALL_HOLE_FAIL_CANCEL_CHAIN -1
 
 /datum/element/wall_holer
