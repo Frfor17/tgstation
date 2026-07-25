@@ -586,4 +586,9 @@
 	disgust_metabolism = 2.5
 	metabolism_efficiency = 0.08
 
+/obj/item/organ/stomach/swollen
+	name = "swollen stomach"
+	desc = "mhgmgh"
+	icon_state = "stomach-evolved"
+
 #undef STOMACH_METABOLISM_CONSTANT
