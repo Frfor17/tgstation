@@ -3,7 +3,7 @@
 	name = "plasma tester"
 	desc = "brand plasma tester"
 	icon = 'icon/obj/devices/plasma_tester.dmi'
-	icon_state = "plasma_tester_active1""
+	icon_state = "plasma_tester_active1"
 
 /obj/item/plasma_tester/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
 	if(issheet(interacting_with))
