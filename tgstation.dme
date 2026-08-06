@@ -2857,6 +2857,7 @@
 #include "code\game\objects\items\devices\mulligan_kit.dm"
 #include "code\game\objects\items\devices\multitool.dm"
 #include "code\game\objects\items\devices\pipe_painter.dm"
+#include "code\game\objects\items\devices\plasma_tester.dm"
 #include "code\game\objects\items\devices\polycircuit.dm"
 #include "code\game\objects\items\devices\powersink.dm"
 #include "code\game\objects\items\devices\pressureplates.dm"
