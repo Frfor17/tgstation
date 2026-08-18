@@ -7,8 +7,6 @@
 
 	var/range = 3
 
-	var/mysterious_pie = /obj/item/food/pie/cream
-
 /datum/gizpulse/pie_thrower/activate(atom/movable/holder, datum/gizmodes/master, datum/gizmo_interface/interface)
 	throw_pie(holder)
 
