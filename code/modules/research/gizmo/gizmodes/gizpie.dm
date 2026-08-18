@@ -17,6 +17,6 @@
 /datum/gizpulse/pie_thrower/proc/throw_pie(atom/movable/holder)
 	var/obj/item/food/pie/cream/mysterious_pie = new /obj/item/food/pie/cream
 	for(var/mob/living/carbon/human/human in urange(range, holder))
-		mysterious_pie.stun_and_blur(human)
+		mysterious_pie.stun_and_blur(human, TRUE)
 
 /datum/gizpulse/pie_thrower/ordinary
