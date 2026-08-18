@@ -1,6 +1,6 @@
 /datum/gizmodes/pie_thrower
 	guaranteed_active_gizmodes = list(
-		/datum/gizpulse/pie_thrower/ordinary,
+		/datum/gizpulse/pie_thrower,
 	)
 
 /datum/gizpulse/pie_thrower
@@ -14,5 +14,3 @@
 	var/obj/item/food/pie/cream/mysterious_pie = new /obj/item/food/pie/cream
 	for(var/mob/living/carbon/human/human in urange(range, holder))
 		mysterious_pie.stun_and_blur(human, TRUE)
-
-/datum/gizpulse/pie_thrower/ordinary
