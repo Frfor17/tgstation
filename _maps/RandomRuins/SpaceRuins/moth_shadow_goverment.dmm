@@ -2,11 +2,64 @@
 "a" = (
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
+"e" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"g" = (
+/obj/structure/aquarium/donkfish,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"h" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/clipboard{
+	pixel_y = 3;
+	pixel_x = -4
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"l" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/coffeemaker/impressa{
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
 "o" = (
 /turf/template_noop,
 /area/space)
+"t" = (
+/obj/structure/filingcabinet{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
 "u" = (
 /turf/closed/mineral/random,
+/area/space)
+"z" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/book/manual/wiki/tcomms{
+	pixel_x = 12;
+	pixel_y = 1
+	},
+/obj/item/paper/guides/antag/hdd_extraction{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/structure/sign/poster/contraband/syndiemoth/directional/east,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"E" = (
+/obj/structure/chair/office/tactical{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
 "H" = (
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal{
@@ -14,8 +67,52 @@
 	name = "reinforced wall"
 	},
 /area/space)
+"I" = (
+/obj/machinery/digital_clock/directional/east,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"K" = (
+/obj/machinery/telecomms/hub,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"L" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/assembly/voice{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/assembly/signaler/cyborg{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/obj/structure/sign/poster/contraband/hacking_guide/directional/east,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"M" = (
+/obj/structure/chair/office/tactical{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"N" = (
+/obj/structure/chair/office/tactical{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"Q" = (
+/obj/structure/chair/office/tactical,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
 "X" = (
 /obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"Z" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 8;
+	icon_keyboard = "syndie_key"
+	},
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
 
@@ -176,11 +273,11 @@ u
 u
 u
 u
-u
-u
-u
-u
-u
+H
+H
+H
+H
+H
 u
 u
 u
@@ -204,12 +301,12 @@ u
 u
 u
 u
-u
-u
-u
-u
-u
-u
+a
+a
+a
+a
+H
+H
 u
 o
 o
@@ -235,8 +332,8 @@ a
 a
 a
 a
-a
-a
+E
+e
 H
 u
 u
@@ -261,10 +358,10 @@ u
 u
 a
 a
+E
 a
 a
-a
-a
+X
 H
 u
 o
@@ -288,11 +385,11 @@ u
 u
 u
 a
-X
+h
 X
 X
 a
-a
+X
 H
 o
 o
@@ -315,12 +412,12 @@ u
 u
 u
 u
-a
+Q
 X
 a
 X
 a
-a
+g
 H
 o
 o
@@ -343,12 +440,12 @@ u
 u
 u
 u
-a
+Q
 X
 a
 X
 a
-a
+X
 H
 u
 o
@@ -375,8 +472,8 @@ a
 X
 a
 X
-a
-a
+N
+X
 H
 u
 o
@@ -404,7 +501,7 @@ X
 X
 X
 a
-a
+t
 H
 o
 o
@@ -430,9 +527,9 @@ u
 a
 a
 a
+M
 a
-a
-a
+X
 H
 u
 o
@@ -459,9 +556,9 @@ a
 a
 a
 a
-a
-a
-u
+I
+l
+H
 u
 o
 o
@@ -483,13 +580,13 @@ u
 u
 u
 u
-u
-u
-u
-u
-u
-u
-u
+a
+E
+a
+a
+H
+H
+H
 u
 u
 o
@@ -511,11 +608,11 @@ u
 u
 u
 u
-u
-u
-u
-u
-u
+L
+Z
+z
+K
+H
 u
 u
 u
@@ -539,11 +636,11 @@ u
 u
 u
 u
-u
-u
-u
-u
-u
+H
+H
+H
+H
+H
 u
 u
 u
