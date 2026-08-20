@@ -280,6 +280,15 @@
 	to_chat(reviver, span_userdanger("[src] resists the control of the injector!"))
 	balloon_alert(reviver, "can't control!")
 
+/mob/living/basic/blood_worm/proc/add_parents_mutations(/mob/living/basic/blood_worm/parent)
+	var/list/mutations = parent.take_mutations()
+
+/mob/living/basic/blood_worm/proc/take_mutations()
+
+	var/list/mutations = src.mutations_list()
+
+	return mutations
+
 /mob/living/basic/blood_worm/hatchling
 	name = "hatchling blood worm"
 	desc = "A freshly hatched blood worm. It looks hungry and weak, requiring blood to grow further."

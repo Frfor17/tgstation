@@ -377,6 +377,9 @@
 		var/mob/living/basic/blood_worm/hatchling/new_hatchling = new(cocoon.drop_location())
 		var/datum/mind/fresh_mind = new(candidate.key)
 
+		new_hatchling.add_parents_mutations(old_worm)
+		new_hatchling.roll_new_mutations()
+
 		fresh_mind.transfer_to(new_hatchling, force_key_move = TRUE)
 		fresh_mind.add_antag_datum(/datum/antagonist/blood_worm/infestation)
 
