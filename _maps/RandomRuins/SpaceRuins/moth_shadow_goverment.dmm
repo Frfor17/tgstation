@@ -2,80 +2,39 @@
 "a" = (
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
-"e" = (
-/obj/structure/closet/crate/bin,
+"c" = (
+/obj/structure/chair/office/tactical{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"d" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"e" = (
+/obj/machinery/exoscanner,
+/turf/open/floor/plating/reinforced/airless,
+/area/space)
+"f" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "g" = (
-/obj/structure/aquarium/donkfish,
-/turf/open/floor/mineral/plastitanium/pod/light,
-/area/space)
-"h" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/clipboard{
-	pixel_y = 3;
-	pixel_x = -4
-	},
-/turf/open/floor/mineral/plastitanium/pod/light,
-/area/space)
-"l" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/coffeemaker/impressa{
-	pixel_y = 4
-	},
-/turf/open/floor/mineral/plastitanium/pod/light,
-/area/space)
-"o" = (
-/turf/template_noop,
-/area/space)
-"t" = (
-/obj/structure/filingcabinet{
-	pixel_x = 8;
-	pixel_y = 0
-	},
-/obj/structure/filingcabinet{
-	pixel_x = -8;
-	pixel_y = 0
-	},
-/turf/open/floor/mineral/plastitanium/pod/light,
-/area/space)
-"u" = (
-/turf/closed/mineral/random,
-/area/space)
-"z" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/book/manual/wiki/tcomms{
-	pixel_x = 12;
-	pixel_y = 1
-	},
-/obj/item/paper/guides/antag/hdd_extraction{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/structure/sign/poster/contraband/syndiemoth/directional/east,
-/turf/open/floor/mineral/plastitanium/pod/light,
-/area/space)
-"E" = (
 /obj/structure/chair/office/tactical{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
-"H" = (
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal{
-	desc = "An ominous looking wall.";
-	name = "reinforced wall"
-	},
-/area/space)
-"I" = (
-/obj/machinery/digital_clock/directional/east,
+"i" = (
+/obj/structure/chair/office/tactical,
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
-"K" = (
+"j" = (
 /obj/machinery/telecomms/hub,
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
-"L" = (
+"k" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/assembly/voice{
 	pixel_x = -5;
@@ -88,31 +47,210 @@
 /obj/structure/sign/poster/contraband/hacking_guide/directional/east,
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
-"M" = (
-/obj/structure/chair/office/tactical{
-	dir = 8
+"l" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/book/manual/wiki/tcomms{
+	pixel_x = 12;
+	pixel_y = 1
+	},
+/obj/item/paper/guides/antag/hdd_extraction{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/structure/sign/poster/contraband/syndiemoth/directional/east,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"m" = (
+/obj/structure/lattice,
+/obj/structure/fluff/sat_dish{
+	dir = 8;
+	pixel_y = -5;
+	pixel_x = 17
+	},
+/turf/open/space/basic,
+/area/space)
+"n" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"o" = (
+/turf/template_noop,
+/area/space)
+"p" = (
+/obj/effect/turf_decal/siding/wideplating/dark/end{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"q" = (
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"r" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"s" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"t" = (
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"u" = (
+/turf/closed/mineral/random,
+/area/space)
+"v" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"w" = (
+/obj/structure/fluff{
+	icon = 'icons/mob/simple/hivebot.dmi';
+	icon_state = "def_radar-off";
+	name = "radio dish component";
+	desc = "Remarkable Nanotrasen technology. This does... something to make the radio dish work.";
+	pixel_y = 16
+	},
+/turf/open/floor/plating/reinforced/airless,
+/area/space)
+"y" = (
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = -10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"z" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"A" = (
+/turf/closed/wall/mineral/plastitanium/darkpod,
+/area/space)
+"B" = (
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/turf_decal/siding/wideplating/dark/end,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"C" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/space)
+"D" = (
+/obj/structure/closet/crate/secure/syndicate/cybersun/night,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"E" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wideplating/dark/corner,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"F" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"G" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/fax,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"H" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal{
+	desc = "An ominous looking wall.";
+	name = "reinforced wall"
+	},
+/area/space)
+"I" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin/carbon{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/obj/item/pen/fountain{
+	pixel_y = 6;
+	pixel_x = -2
 	},
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
-"N" = (
-/obj/structure/chair/office/tactical{
-	dir = 1
+"J" = (
+/obj/machinery/digital_clock/directional/east,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"K" = (
+/obj/structure/filingcabinet{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet{
+	pixel_x = -8;
+	pixel_y = 0
 	},
 /turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"L" = (
+/obj/structure/aquarium/donkfish,
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"M" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/clipboard{
+	pixel_y = 3;
+	pixel_x = -4
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"O" = (
+/obj/structure/fluff/commsbuoy_receiver,
+/turf/open/floor/plating/reinforced/airless,
+/area/space)
+"P" = (
+/obj/structure/railing,
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "Q" = (
-/obj/structure/chair/office/tactical,
+/obj/structure/chair/office/tactical{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"R" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"S" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 8;
+	icon_keyboard = "syndie_key"
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"T" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/coffeemaker/impressa{
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/plastitanium/pod/light,
+/area/space)
+"U" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"V" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/space)
 "X" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
+"Y" = (
+/turf/open/space/basic,
+/area/space)
 "Z" = (
-/obj/machinery/computer/telecomms/monitor{
-	dir = 8;
-	icon_keyboard = "syndie_key"
-	},
+/obj/structure/closet/crate/bin,
 /turf/open/floor/mineral/plastitanium/pod/light,
 /area/space)
 
@@ -149,14 +287,14 @@ o
 o
 o
 o
+u
 o
 o
 o
 o
-o
-o
-o
-o
+V
+v
+V
 o
 o
 o
@@ -176,16 +314,16 @@ o
 o
 o
 o
+u
+o
+u
 o
 o
-o
-o
-o
-o
-o
-o
-o
-o
+V
+C
+D
+C
+V
 o
 o
 o
@@ -203,17 +341,17 @@ o
 (4,1,1) = {"
 o
 o
-o
-o
-o
-o
-o
-o
-o
-o
-o
-o
 u
+u
+u
+u
+u
+o
+C
+s
+t
+s
+C
 o
 o
 o
@@ -230,18 +368,18 @@ o
 "}
 (5,1,1) = {"
 o
-o
-o
-o
-o
-o
-o
-o
-o
-o
-o
 u
 u
+H
+H
+H
+u
+u
+C
+P
+t
+y
+C
 u
 u
 u
@@ -258,21 +396,21 @@ o
 "}
 (6,1,1) = {"
 o
-o
-o
-o
-o
-o
-o
 u
 u
-u
-o
-u
-u
-u
+H
+q
+H
 u
 u
+C
+s
+t
+s
+C
+u
+H
+H
 H
 H
 H
@@ -285,26 +423,26 @@ o
 o
 "}
 (7,1,1) = {"
-o
-o
-o
-o
-o
-o
-o
-o
 u
 u
+H
+H
+U
+H
+H
+o
+f
+t
+t
+t
+f
+H
+H
 u
-u
-u
-u
-u
-u
-a
-a
-a
-a
+r
+d
+I
+G
 H
 H
 u
@@ -314,26 +452,26 @@ o
 "}
 (8,1,1) = {"
 o
-o
-o
-o
-o
+u
+H
+t
+t
 u
 u
 u
-u
-u
-u
-u
-u
+F
+n
+t
+n
+F
 u
 u
 a
 a
 a
 a
-E
-e
+Q
+Z
 H
 u
 u
@@ -343,22 +481,22 @@ o
 (9,1,1) = {"
 o
 o
-o
-o
+H
+t
 u
 u
+H
 u
-u
-u
-u
-u
-u
-u
+A
+F
+t
+F
+A
 u
 u
 a
 a
-E
+Q
 a
 a
 X
@@ -370,22 +508,22 @@ o
 "}
 (10,1,1) = {"
 o
+u
+H
+t
+t
+t
+H
+u
 o
+A
+A
+A
 o
-o
-o
-o
-u
-u
-u
-u
-u
-u
-u
 u
 u
 a
-h
+M
 X
 X
 a
@@ -398,26 +536,26 @@ o
 "}
 (11,1,1) = {"
 o
-o
-o
-o
-o
+u
+H
+t
+t
+t
+H
 u
 u
 u
+A
 u
 u
+H
 u
-u
-u
-u
-u
-Q
+i
 X
 a
 X
 a
-g
+L
 H
 o
 o
@@ -426,21 +564,21 @@ o
 "}
 (12,1,1) = {"
 o
-o
-o
-o
+u
+H
+t
+t
+t
+H
 u
 u
 u
 u
 u
 u
+H
 u
-u
-u
-u
-u
-Q
+i
 X
 a
 X
@@ -454,25 +592,25 @@ o
 "}
 (13,1,1) = {"
 o
-o
-o
-o
-o
 u
+H
+H
+R
+H
+H
+H
+H
 u
-u
-u
-u
-u
-u
-u
-u
+H
+H
+H
+H
 u
 a
 X
 a
 X
-N
+c
 X
 H
 u
@@ -481,27 +619,27 @@ o
 o
 "}
 (14,1,1) = {"
-o
-o
-o
-o
-o
 u
 u
-u
-u
-u
-u
-u
-u
-u
-u
-a
-X
-X
-X
-a
+H
 t
+t
+t
+t
+t
+H
+H
+H
+t
+t
+H
+u
+a
+X
+X
+X
+a
+K
 H
 o
 o
@@ -509,25 +647,25 @@ o
 o
 "}
 (15,1,1) = {"
-o
-o
-o
-o
 u
 u
-u
-u
-u
-u
-u
-u
-u
-u
+H
+t
+t
+t
+t
+t
+t
+R
+t
+t
+t
+R
 u
 a
 a
 a
-M
+g
 a
 X
 H
@@ -538,26 +676,26 @@ o
 "}
 (16,1,1) = {"
 o
-o
-o
-o
-o
 u
-u
-u
-u
-u
-u
-u
-u
-u
+H
+t
+H
+v
+v
+v
+v
+H
+t
+t
+t
+H
 u
 a
 a
 a
 a
-I
-l
+J
+T
 H
 u
 o
@@ -566,22 +704,22 @@ o
 "}
 (17,1,1) = {"
 o
-o
-o
-o
-o
 u
-u
-u
-u
-u
-u
-u
-u
-u
-u
+H
+H
+H
+z
+z
+z
+z
+H
+H
+f
+H
+H
+H
 a
-E
+Q
 a
 a
 H
@@ -594,24 +732,24 @@ o
 "}
 (18,1,1) = {"
 o
-o
-o
-o
-o
-o
 u
 u
-u
-u
-u
-u
-u
-u
-u
-L
-Z
+Y
 z
-K
+Y
+z
+Y
+O
+u
+H
+E
+B
+H
+H
+k
+S
+l
+j
 H
 u
 u
@@ -623,19 +761,19 @@ o
 (19,1,1) = {"
 o
 o
-o
-o
-o
-o
-o
 u
-o
-u
-u
-u
-u
-u
-u
+Y
+z
+Y
+m
+Y
+z
+z
+f
+p
+H
+H
+H
 H
 H
 H
@@ -651,17 +789,17 @@ o
 (20,1,1) = {"
 o
 o
-o
-o
-o
-o
-o
-o
-o
-o
-o
+H
+Y
+e
+Y
+w
+Y
+z
 u
-u
+H
+H
+H
 u
 u
 u
@@ -679,16 +817,16 @@ o
 (21,1,1) = {"
 o
 o
+u
+Y
+Y
+Y
+Y
+Y
+z
+H
 o
-o
-o
-o
-o
-o
-o
-o
-o
-o
+u
 o
 u
 u
@@ -708,13 +846,13 @@ o
 o
 o
 o
-o
-o
-o
-o
-o
-o
-o
+u
+H
+u
+u
+H
+u
+u
 o
 o
 o
@@ -739,9 +877,9 @@ o
 o
 o
 o
-o
-o
-o
+u
+u
+u
 o
 o
 o
