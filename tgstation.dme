@@ -3534,6 +3534,7 @@
 #include "code\modules\antagonists\blood_worm\blood_worm_host_handling.dm"
 #include "code\modules\antagonists\blood_worm\blood_worm_host_mob.dm"
 #include "code\modules\antagonists\blood_worm\blood_worm_mob.dm"
+#include "code\modules\antagonists\blood_worm\blood_worm_mutations.dm"
 #include "code\modules\antagonists\blood_worm\blood_worm_objectives.dm"
 #include "code\modules\antagonists\blood_worm\blood_worm_team.dm"
 #include "code\modules\antagonists\blood_worm\blood_worm_tester.dm"
