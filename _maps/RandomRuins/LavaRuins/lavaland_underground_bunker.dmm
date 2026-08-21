@@ -1,1084 +1,1448 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/turf/template_noop,
+"at" = (
+/turf/open/floor/carpet/red,
 /area/space)
-"b" = (
+"aC" = (
+/obj/effect/decal/cleanable/garbage,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"aJ" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"be" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/concrete/slab_4,
+/turf/open/floor/concrete/slab_1,
 /area/space)
-"c" = (
-/obj/machinery/oven/range,
+"bZ" = (
+/obj/effect/decal/cleanable/garbage,
+/obj/structure/sink/kitchen/directional/west,
 /turf/open/floor/concrete/tiles,
 /area/space)
-"d" = (
+"ca" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"ce" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"cn" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"ct" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/misc/dirt/dark/jungle,
+/area/space)
+"cB" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/oil/slippery,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"cD" = (
+/turf/closed/wall/concrete,
+/area/space)
+"cP" = (
+/turf/open/floor/concrete/pavement,
+/area/space)
+"cV" = (
+/obj/effect/decal/cleanable/molten_object,
+/obj/structure/table/reinforced,
+/obj/structure/railing/unbreakable{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"dm" = (
+/obj/structure/filingcabinet,
+/obj/structure/cable,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"dK" = (
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"dL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"dM" = (
+/obj/effect/decal/cleanable/ants/fire,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"eq" = (
+/obj/structure/bedsheetbin,
+/turf/open/floor/concrete,
+/area/space)
+"fe" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/chem_pile,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"gx" = (
 /obj/structure/chair/plastic{
 	dir = 9
 	},
 /turf/open/floor/concrete/slab_1,
 /area/space)
-"e" = (
-/obj/structure/cable,
-/turf/open/floor/concrete/slab_4,
-/area/space)
-"f" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"h" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
+"gz" = (
+/obj/effect/decal/cleanable/fuel_pool,
 /turf/open/floor/concrete/pavement,
 /area/space)
-"i" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"j" = (
-/obj/machinery/power/port_gen/pacman/super,
+"gP" = (
 /obj/structure/cable,
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/vomit,
 /turf/open/floor/concrete/pavement,
 /area/space)
-"k" = (
-/obj/structure/chair/plastic{
-	dir = s
-	},
-/turf/open/floor/concrete/slab_1,
+"gT" = (
+/turf/closed/mineral/ash_rock,
 /area/space)
-"l" = (
-/obj/structure/cable,
+"hP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"hV" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete,
 /area/space)
-"m" = (
+"ib" = (
+/obj/effect/decal/cleanable/insectguts,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"iw" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/space)
-"n" = (
-/obj/structure/table/reinforced,
-/obj/machinery/processor,
+"jn" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"jx" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/tiles,
 /area/space)
-"o" = (
+"jA" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"kd" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/item/paper_bin,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"kn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"lm" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"ls" = (
+/obj/structure/cable,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"lR" = (
+/obj/effect/decal/cleanable/greenglow/radioactive,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"mh" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"mH" = (
 /obj/machinery/door/airlock/grunge,
 /obj/structure/cable,
-/turf/open/floor/concrete/pavement,
-/area/space)
-"p" = (
-/obj/structure/cable,
-/turf/open/floor/concrete/tiles,
-/area/space)
-"q" = (
-/obj/structure/cable,
-/turf/open/floor/iron/stairs{
-	dir = 4
-	},
-/area/space)
-"r" = (
-/obj/structure/chair/plastic{
-	dir = 8
-	},
-/obj/structure/cable,
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"s" = (
 /turf/open/floor/concrete,
 /area/space)
-"t" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark/jungle,
-/area/space)
-"u" = (
-/obj/structure/cable,
-/turf/open/floor/concrete/pavement,
-/area/space)
-"v" = (
-/turf/open/floor/concrete/tiles,
-/area/space)
-"w" = (
-/obj/structure/chair/plastic{
-	dir = 8
-	},
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"x" = (
-/turf/open/floor/concrete/pavement,
-/area/space)
-"y" = (
-/obj/structure/flora/rock/style_3,
-/turf/open/floor/concrete/pavement,
-/area/space)
-"z" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/structure/cable,
-/turf/open/floor/concrete/slab_4,
-/area/space)
-"A" = (
-/turf/open/floor/concrete/slab_4,
-/area/space)
-"B" = (
-/obj/machinery/griddle,
-/turf/open/floor/concrete/tiles,
-/area/space)
-"C" = (
+"no" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/concrete/tiles,
+/turf/open/floor/concrete/pavement,
 /area/space)
-"D" = (
-/turf/open/misc/dirt/dark/jungle,
+"nz" = (
+/turf/open/floor/concrete,
 /area/space)
-"E" = (
-/obj/structure/table,
-/obj/structure/cable,
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"F" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/concrete/slab_4,
-/area/space)
-"G" = (
+"nC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
 /turf/open/floor/concrete/tiles,
 /area/space)
-"H" = (
+"nF" = (
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"on" = (
 /obj/structure/flora/rock/pile/style_random,
 /obj/structure/cable,
 /obj/structure/cable,
+/obj/effect/decal/cleanable/blood/trail_holder,
 /turf/open/floor/concrete/pavement,
 /area/space)
-"I" = (
-/obj/machinery/door/airlock/grunge,
-/obj/structure/cable,
-/turf/open/floor/concrete,
-/area/space)
-"J" = (
-/obj/machinery/door/airlock/hatch,
-/obj/structure/cable,
+"ov" = (
+/obj/effect/decal/cleanable/plasma,
 /turf/open/floor/concrete/pavement,
 /area/space)
-"K" = (
-/obj/structure/table,
-/turf/open/floor/concrete/tiles,
-/area/space)
-"L" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"M" = (
+"oV" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /turf/open/floor/concrete/tiles,
 /area/space)
-"N" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/concrete/tiles,
-/area/space)
-"O" = (
-/obj/machinery/door/airlock/hatch,
-/obj/structure/cable,
-/turf/open/floor/concrete/tiles,
-/area/space)
-"P" = (
-/obj/structure/filingcabinet,
+"ph" = (
+/obj/structure/table,
 /obj/structure/cable,
 /turf/open/floor/concrete/slab_1,
 /area/space)
-"Q" = (
-/obj/structure/railing/unbreakable{
-	dir = 1
-	},
-/turf/open/floor/concrete/slab_4,
-/area/space)
-"R" = (
-/turf/open/floor/concrete/slab_1,
-/area/space)
-"S" = (
+"pH" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"qz" = (
 /obj/structure/cable,
-/turf/open/floor/iron/stairs{
-	dir = 1
-	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/concrete/pavement,
 /area/space)
-"T" = (
+"qM" = (
 /obj/structure/cable,
-/turf/open/floor/concrete/slab_1,
+/obj/effect/decal/cleanable/plastic,
+/turf/open/floor/concrete/pavement,
 /area/space)
-"U" = (
-/turf/closed/mineral/ash_rock,
+"qP" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/concrete/pavement,
 /area/space)
-"V" = (
+"qZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete,
 /area/space)
-"W" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing/unbreakable{
-	dir = 1
-	},
-/turf/open/floor/concrete/slab_4,
+"rr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/tiles,
 /area/space)
-"X" = (
-/obj/machinery/door/airlock/grunge,
-/obj/structure/cable,
+"rG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"sB" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/slab_1,
 /area/space)
-"Y" = (
-/turf/closed/wall/concrete,
+"uI" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/garbage,
+/turf/open/floor/concrete/tiles,
 /area/space)
-"Z" = (
+"vf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/pod,
+/turf/open/floor/concrete,
+/area/space)
+"vX" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/concrete_dust,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"wu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /obj/structure/cable,
 /turf/open/floor/concrete/pavement,
 /area/space)
+"wx" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"wJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/railing/unbreakable{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"xG" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"xS" = (
+/obj/structure/table,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"yA" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/cable,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"zo" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table,
+/turf/open/floor/concrete,
+/area/space)
+"zK" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"zW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/concrete_dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"AU" = (
+/obj/structure/railing/unbreakable{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"Bw" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"BD" = (
+/obj/machinery/oven/range,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"BM" = (
+/obj/effect/decal/cleanable/concrete_dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Cr" = (
+/obj/structure/table/reinforced,
+/obj/machinery/processor,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"CI" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"DV" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Eq" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/trail,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"EO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"FJ" = (
+/obj/effect/decal/cleanable/concrete_dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"FZ" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/item/pen,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Gs" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/rubble,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Hl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing/unbreakable{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"Hn" = (
+/turf/open/misc/dirt/dark/jungle,
+/area/space)
+"HM" = (
+/obj/effect/decal/cleanable/plastic,
+/turf/open/floor/concrete,
+/area/space)
+"Is" = (
+/obj/structure/sink/kitchen/directional/east,
+/turf/open/floor/concrete,
+/area/space)
+"IT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/garbage,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Jf" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"KE" = (
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Lc" = (
+/obj/effect/decal/cleanable/concrete_dust,
+/turf/open/misc/dirt/dark/jungle,
+/area/space)
+"Mb" = (
+/obj/structure/cable,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"My" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"MM" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"NG" = (
+/obj/structure/cable,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"NI" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/cable,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Oh" = (
+/obj/structure/chair/plastic{
+	dir = s
+	},
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Oi" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/cable,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"Or" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"ON" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/bed/pod,
+/turf/open/floor/concrete,
+/area/space)
+"OP" = (
+/obj/structure/table,
+/turf/open/floor/concrete,
+/area/space)
+"OV" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"Pl" = (
+/obj/structure/flora/rock/style_3,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Px" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"PU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Qw" = (
+/obj/structure/cable,
+/turf/open/floor/concrete,
+/area/space)
+"QK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/double/pod,
+/turf/open/floor/carpet/red,
+/area/space)
+"Rp" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"RS" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/cable,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Sg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Sl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Sq" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"Ss" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"SK" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"TP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Up" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/iron/stairs{
+	dir = 4
+	},
+/area/space)
+"WP" = (
+/turf/template_noop,
+/area/space)
+"Xa" = (
+/obj/machinery/griddle,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"Xe" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Xl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/space)
+"Ya" = (
+/turf/open/floor/concrete/tiles,
+/area/space)
+"Yh" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/plastic,
+/turf/open/floor/concrete/tiles,
+/area/space)
+"YP" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"YR" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"Zi" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/structure/cable,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"Zy" = (
+/obj/structure/bed/pod,
+/turf/open/floor/concrete,
+/area/space)
+"ZJ" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/pavement,
+/area/space)
 
 (1,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 "}
 (2,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-Y
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+cD
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 "}
 (3,1,1) = {"
-a
-a
-a
-a
-a
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-x
-x
-m
-x
-Y
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
-a
+WP
+WP
+WP
+WP
+WP
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+FJ
+hP
+iw
+hP
+cD
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (4,1,1) = {"
-a
-Y
-Y
-Y
-Y
-Y
-i
-R
-F
-F
-F
-i
-Y
-x
-x
-u
-x
-Y
-D
-D
-D
-D
-Y
-a
-a
-a
-a
-a
+WP
+cD
+cD
+cD
+cD
+cD
+be
+KE
+YR
+YR
+YR
+be
+cD
+hP
+hP
+aJ
+cP
+cD
+Hn
+Hn
+Lc
+Hn
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (5,1,1) = {"
-a
-Y
-R
-R
-R
-Y
-R
-d
-R
-i
-R
-R
-Y
-x
-m
-u
-x
-Y
-D
-D
-t
-D
-Y
-a
-a
-a
-a
-a
+WP
+cD
+sB
+KE
+sB
+cD
+KE
+gx
+sB
+be
+KE
+KE
+cD
+cP
+zW
+aJ
+hP
+cD
+Hn
+Hn
+ct
+Hn
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (6,1,1) = {"
-a
-Y
-R
-T
-T
-X
-T
-r
-L
-T
-w
-w
-Y
-x
-x
-u
-x
-Y
-D
-D
-D
-D
-Y
-a
-a
-a
-a
-a
+WP
+cD
+sB
+NG
+NG
+RS
+NG
+xG
+IT
+NG
+Bw
+fe
+cD
+cP
+hP
+Mb
+cP
+cD
+Hn
+Lc
+Hn
+Hn
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (7,1,1) = {"
-a
-Y
-R
-T
-R
-Y
-R
-w
-w
-T
-w
-i
-Y
-Y
-Y
-J
-Y
-Y
-D
-D
-D
-D
-Y
-a
-a
-a
-a
-a
+WP
+cD
+KE
+Xe
+KE
+cD
+aC
+mh
+Or
+NG
+Or
+be
+cD
+cD
+cD
+yA
+cD
+cD
+Hn
+Lc
+Hn
+Lc
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (8,1,1) = {"
-a
-Y
-R
-E
-f
-Y
-Y
-Y
-Y
-X
-Y
-Y
-Y
-u
-u
-h
-x
-Y
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
-a
+WP
+cD
+KE
+ph
+dL
+cD
+cD
+cD
+cD
+RS
+cD
+cD
+cD
+zK
+qP
+ca
+DV
+cD
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (9,1,1) = {"
-a
-Y
-R
-P
-k
-Y
-Y
-M
-M
-p
-v
-v
-Y
-u
-Y
-Y
-Y
-Y
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+WP
+cD
+KE
+dm
+Oh
+cD
+cD
+uI
+oV
+ls
+ce
+rr
+cD
+Mb
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 "}
 (10,1,1) = {"
-a
-Y
-R
-T
-R
-Y
-Y
-K
-K
-p
-p
-p
-O
-u
-x
-x
-x
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
+WP
+cD
+KE
+NG
+sB
+cD
+cD
+xS
+My
+ls
+vX
+OV
+Oi
+Mb
+cD
+Sl
+Sl
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
 "}
 (11,1,1) = {"
-a
-Y
-Y
-I
-Y
-Y
-Y
-N
-N
-v
-p
-M
-Y
-u
-h
-u
-x
-Y
-x
-x
-m
-x
-m
-Y
-a
-a
-a
-a
+WP
+cD
+cD
+mH
+cD
+cD
+cD
+lm
+MM
+Ya
+SK
+oV
+cD
+Mb
+PU
+aJ
+cn
+cD
+hP
+hP
+iw
+hP
+iw
+cD
+WP
+WP
+WP
+WP
 "}
 (12,1,1) = {"
-a
-Y
-s
-l
-s
-Y
-Y
-v
-v
-v
-p
-K
-Y
-u
-Y
-x
-x
-Y
-x
-m
-x
-x
-x
-Y
-a
-a
-a
-a
+WP
+cD
+Is
+Qw
+OP
+zo
+cD
+Ya
+Yh
+Sq
+ls
+My
+cD
+Mb
+cD
+kd
+FZ
+cD
+cP
+rG
+Sg
+ZJ
+hP
+cD
+WP
+WP
+WP
+WP
 "}
 (13,1,1) = {"
-a
-Y
-s
-l
-V
-Y
-Y
-B
-v
-K
-C
-N
-Y
-u
-u
-u
-h
-u
-u
-u
-u
-m
-x
-Y
-a
-a
-a
-a
+WP
+cD
+nz
+Qw
+qZ
+nz
+cD
+Xa
+rr
+jx
+kn
+MM
+cD
+qM
+Ss
+Mb
+TP
+Jf
+Eq
+aJ
+YP
+rG
+hP
+cD
+WP
+WP
+WP
+WP
 "}
 (14,1,1) = {"
-a
-Y
-s
-l
-s
-Y
-Y
-c
-v
-K
-p
-M
-Y
-u
-Y
-Y
-Y
-Y
-x
-m
-x
-x
-x
-Y
-a
-a
-a
-a
+WP
+cD
+nz
+Qw
+wJ
+at
+cD
+BD
+ib
+xS
+ls
+oV
+cD
+Mb
+cD
+cD
+cD
+cD
+cP
+pH
+BM
+Sg
+hP
+cD
+WP
+WP
+WP
+WP
 "}
 (15,1,1) = {"
-a
-Y
-s
-l
-s
-Y
-Y
-G
-v
-K
-p
-K
-Y
-u
-u
-h
-u
-Y
-m
-x
-x
-x
-m
-Y
-a
-a
-a
-a
+WP
+cD
+nz
+Qw
+cV
+QK
+cD
+nC
+Ya
+xS
+ls
+CI
+cD
+Mb
+Mb
+no
+qz
+cD
+iw
+cP
+cP
+hP
+rG
+cD
+WP
+WP
+WP
+WP
 "}
 (16,1,1) = {"
-a
-Y
-Y
-I
-Y
-Y
-Y
-n
-v
-K
-p
-N
-Y
-Y
-Y
-Y
-J
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
+WP
+cD
+cD
+mH
+cD
+cD
+cD
+Cr
+bZ
+xS
+jA
+lm
+cD
+cD
+cD
+cD
+yA
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
 "}
 (17,1,1) = {"
-a
-Y
-x
-u
-x
-x
-Y
-Y
-Y
-Y
-o
-Y
-Y
-Y
-Y
-x
-u
-x
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
-a
+WP
+cD
+cP
+Mb
+hP
+cP
+cD
+cD
+cD
+cD
+NI
+cD
+cD
+cD
+cD
+hP
+Mb
+hP
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (18,1,1) = {"
-a
-Y
-x
-u
-x
-x
-x
-x
-x
-h
-u
-u
-u
-u
-u
-u
-u
-u
-h
-u
-u
-x
-Y
-a
-a
-a
-a
-a
+WP
+cD
+Rp
+Mb
+cP
+hP
+cP
+hP
+cP
+no
+Gs
+qP
+qP
+qP
+qP
+qP
+qP
+Mb
+no
+Mb
+aJ
+cP
+cD
+WP
+WP
+WP
+WP
+WP
 "}
 (19,1,1) = {"
-a
-Y
-Y
-z
-Y
-Y
-Y
-Y
-Y
-u
-Y
-Y
-Y
-I
-Y
-Y
-Y
-Y
-Y
-Y
-I
-Y
-Y
-Y
-x
-x
-x
-a
+WP
+cD
+cD
+Zi
+cD
+cD
+cD
+cD
+cD
+Mb
+cD
+cD
+cD
+mH
+cD
+cD
+cD
+cD
+cD
+cD
+mH
+cD
+cD
+cD
+cP
+cP
+cP
+WP
 "}
 (20,1,1) = {"
-a
-a
-Y
-e
-F
-b
-F
-A
-Y
-u
-Y
-s
-V
-l
-s
-s
-Y
-s
-s
-V
-l
-s
-s
-Y
-x
-x
-x
-a
+WP
+WP
+cD
+jn
+YR
+Px
+YR
+EO
+cD
+aJ
+cD
+Zy
+qZ
+Qw
+HM
+vf
+cD
+Zy
+hV
+qZ
+Qw
+HM
+vf
+cD
+cP
+cP
+cP
+WP
 "}
 (21,1,1) = {"
-a
-a
-Y
-q
-x
-x
-x
-Q
-Y
-u
-Y
-s
-s
-s
-s
-s
-Y
-s
-s
-s
-s
-s
-s
-Y
-x
-x
-x
-a
+WP
+WP
+cD
+Up
+gz
+gz
+gz
+AU
+cD
+Mb
+cD
+vf
+eq
+hV
+nz
+vf
+cD
+ON
+hV
+hV
+nz
+hV
+vf
+cD
+cP
+cP
+cP
+WP
 "}
 (22,1,1) = {"
-a
-a
-Y
-h
-u
-Z
-x
-Q
-Y
-u
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-a
-a
-a
-a
+WP
+WP
+cD
+no
+aJ
+wu
+cP
+AU
+cD
+aJ
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+WP
+WP
+WP
+WP
 "}
 (23,1,1) = {"
-a
-a
-Y
-x
-x
-j
-x
-W
-Y
-u
-Y
-x
-x
-Y
-a
-a
-a
-a
-a
-a
-a
-A
-a
-a
-a
-a
-a
-a
+WP
+WP
+cD
+hP
+lR
+nF
+cP
+Hl
+cD
+gP
+cD
+hP
+cP
+cD
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+dK
+WP
+WP
+WP
+WP
+WP
+WP
 "}
 (24,1,1) = {"
-a
-a
-Y
-x
-x
-u
-x
-Q
-Y
-u
-Y
-x
-x
-Y
-a
-a
-a
-s
-s
-s
-a
-a
-a
-a
-a
-a
-a
-a
+WP
+WP
+cD
+cP
+ov
+Mb
+cP
+AU
+cD
+wx
+cD
+cP
+dM
+cD
+WP
+WP
+WP
+nz
+nz
+nz
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 "}
 (25,1,1) = {"
-a
-a
-Y
-x
-x
-u
-S
-e
-z
-H
-o
-u
-x
-Y
-a
-a
-a
-a
-a
-a
-a
-v
-v
-v
-a
-a
-a
-a
+WP
+WP
+cD
+hP
+hP
+aJ
+Xl
+cB
+Zi
+on
+NI
+aJ
+cP
+cD
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+Ya
+Ya
+Ya
+WP
+WP
+WP
+WP
 "}
 (26,1,1) = {"
-a
-a
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-y
-Y
-Y
-Y
-Y
-a
-a
-R
-R
-R
-a
-a
-v
-v
-v
-a
-a
-a
-a
+WP
+WP
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+Pl
+cD
+cD
+cD
+cD
+WP
+WP
+KE
+KE
+KE
+WP
+WP
+Ya
+Ya
+Ya
+WP
+WP
+WP
+WP
 "}
 (27,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-Y
-U
-Y
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+cD
+gT
+cD
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 "}
 (28,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 "}
