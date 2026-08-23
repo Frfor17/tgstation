@@ -3650,6 +3650,7 @@
 #include "code\modules\antagonists\heretic\knowledge\lock_lore.dm"
 #include "code\modules\antagonists\heretic\knowledge\moon_lore.dm"
 #include "code\modules\antagonists\heretic\knowledge\rust_lore.dm"
+#include "code\modules\antagonists\heretic\knowledge\slovo_lore.dm"
 #include "code\modules\antagonists\heretic\knowledge\starting_lore.dm"
 #include "code\modules\antagonists\heretic\knowledge\void_lore.dm"
 #include "code\modules\antagonists\heretic\knowledge\sacrifice_knowledge\reroll_targets.dm"
